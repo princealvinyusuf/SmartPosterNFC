@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Smart Poster NFC</string>
+    <string name="logo">logo</string>
+    <string name="judul">SMART POSTER NFC</string>
+    <string name="scannning_poster">Read Poster</string>
+    <string name="create_poster">Create Poster</string>
+    <string name="input">Input</string>
+    <string name="home">home</string>
+    <string name="detail_scan">Reading Smart Poster With NFC</string>
+    <string name="scan_detail2">Simply hold your phone over NFC to read</string>
+    <string name="content">Content</string>
+    <string name="data_type">Data Type</string>
+    <string name="error">Error</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="nfc_disabled">NFC is not enabled. Please go to the wireless settings to enable it.</string>
+    <string name="versi">v.1.0.0 by Combro</string>
+    <string name="about_apps">About Apps</string>
+    <string name="choose_activity">Choose Activity</string>
+    <string name="field">Field The Form</string>
+    <string name="about">About</string>
+    <string name="about_detail">Name : Smart Poster NFC \nVersion : 1.0.0 \nDeveloper : \n  ~ Prince Alvin Yusuf (4311701046) \n ~ Muhammad Raihan Mahardhika (4311701032)</string>
+    <string name="summary">Summary</string>
+    <string name="detail">Detail</string>
+    <string name="detail_apps">Smart Poster NFC is an application that is used to read and write from an NFC Tag-based Smart Poster. This application was made on May 1, 2020 and is intended to fulfill the Internal Project course assignments</string>
+    <string name="close">Close</string>
+    <string name="see_data">See The Data Here</string>
+    <string name="lock">Lock The Tag</string>
+
+</resources>

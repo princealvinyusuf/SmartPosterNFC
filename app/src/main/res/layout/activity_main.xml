@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffdd0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="@string/choose_activity"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/mainGrid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="50dp">
+
+                <!-- Card View 1 -->
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/btn_rounded2"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/read" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/scannning_poster"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="32sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/btn_rounded2"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/create" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/create_poster"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="32sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+            <!--        <ImageButton-->
+            <!--            android:id="@+id/btn_read"-->
+            <!--            android:layout_width="280dp"-->
+            <!--            android:layout_height="200dp"-->
+            <!--            android:background="@drawable/btn_rounded2"-->
+            <!--            android:textAllCaps="false"-->
+            <!--            android:src="@drawable/read"-->
+            <!--            android:textSize="28sp" />-->
+
+            <!--        <Button-->
+            <!--            android:id="@+id/btn_create"-->
+            <!--            android:layout_width="280dp"-->
+            <!--            android:layout_height="200dp"-->
+            <!--            android:layout_gravity="center"-->
+            <!--            android:layout_marginTop="20dp"-->
+            <!--            android:background="@drawable/btn_rounded2"-->
+            <!--            android:text="@string/create_poster"-->
+            <!--            android:textAllCaps="false"-->
+            <!--            android:textColor="@android:color/white"-->
+            <!--            android:textSize="28sp" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
