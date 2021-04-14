@@ -7,7 +7,7 @@ Smart Poster NFC is an application that is used to read and write from an NFC Ta
 2. Application reads the data in the NFC Tag printed on the smart poster and the application displays the data to the user
 
 ## Screenshot
-![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/main/images/Picture1.png?raw=true)
-![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/main/images/Picture2.png?raw=true)
-![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/main/images/Picture3.png?raw=true)
-![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/main/images/Picture4.png?raw=true)
+![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/master/images/Picture1.jpg?raw=true)
+![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/master/images/Picture2.jpg?raw=true)
+![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/master/images/Picture3.jpg?raw=true)
+![alt text](https://github.com/princealvinyusuf/SmartPosterNFC/blob/master/images/Picture4.jpg?raw=true)
